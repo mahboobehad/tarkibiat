@@ -1,0 +1,7 @@
+version: '3'
+services:
+  tarkibiat:
+    image: tarkibiat:0.0.2
+    ports:
+      - "8080:8080"
+    network_mode: host
